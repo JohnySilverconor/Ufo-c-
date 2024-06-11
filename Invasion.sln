@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invasion", "Invasion.csproj", "{3531BD6E-FAEF-4AAF-B874-B299D2D4CB88}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {92AF4C72-FBB1-4C5B-88DC-9C4A22ED38E9}
+		SccProjectUniqueName1 = Invasion.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3531BD6E-FAEF-4AAF-B874-B299D2D4CB88}.Debug.ActiveCfg = Debug|.NET
+		{3531BD6E-FAEF-4AAF-B874-B299D2D4CB88}.Debug.Build.0 = Debug|.NET
+		{3531BD6E-FAEF-4AAF-B874-B299D2D4CB88}.Release.ActiveCfg = Release|.NET
+		{3531BD6E-FAEF-4AAF-B874-B299D2D4CB88}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

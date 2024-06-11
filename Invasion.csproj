@@ -1,0 +1,246 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{3531BD6E-FAEF-4AAF-B874-B299D2D4CB88}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "icon1.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Invasion"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                RootNamespace = "Invasion"
+                StartupObject = "Invasion.Invasion"
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX"
+                    AssemblyName = "Microsoft.DirectX"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0397\Microsoft.DirectX.dll"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX.DirectDraw"
+                    AssemblyName = "Microsoft.DirectX.DirectDraw"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0397\Microsoft.DirectX.DirectDraw.dll"
+                />
+                <Reference
+                    Name = "mscorlib"
+                    AssemblyName = "mscorlib"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\mscorlib.dll"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX.DirectSound"
+                    AssemblyName = "Microsoft.DirectX.DirectSound"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0397\Microsoft.DirectX.DirectSound.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "alpha.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "backdrop2.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "blaster.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "blub.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Bullet.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "explosion.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "explosion.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "explosion2.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "explosion3.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Extra.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "extras.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "gameover.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "getextra.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "icon1.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Invasion.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Invasion.resx"
+                    DependentUpon = "Invasion.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "invasion.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "select.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ship.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "shipexplode.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "shoot.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "shoot2.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "shootufo.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "skid.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "status.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "tap.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ufo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ufo.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ufo2.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ufo3.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ufoshoot.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
